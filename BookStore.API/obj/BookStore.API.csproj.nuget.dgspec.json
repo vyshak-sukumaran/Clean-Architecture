@@ -1,0 +1,299 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.API\\BookStore.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.API\\BookStore.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.API\\BookStore.API.csproj",
+        "projectName": "BookStore.API",
+        "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.API\\BookStore.API.csproj",
+        "packagesPath": "C:\\Users\\vyshak.t\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vyshak.t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj": {
+                "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj"
+              },
+              "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj",
+        "projectName": "BookStore.Application",
+        "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj",
+        "packagesPath": "C:\\Users\\vyshak.t\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vyshak.t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj",
+        "projectName": "BookStore.Domain",
+        "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\vyshak.t\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vyshak.t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj",
+        "projectName": "BookStore.Infrastructure",
+        "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Infrastructure\\BookStore.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\vyshak.t\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vyshak.t\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj": {
+                "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Application\\BookStore.Application.csproj"
+              },
+              "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\vyshak.t\\Documents\\Projects\\learning\\dotnet\\BookStoreCA\\BookStore.Domain\\BookStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
