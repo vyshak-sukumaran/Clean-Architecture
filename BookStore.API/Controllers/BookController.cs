@@ -16,7 +16,7 @@ namespace BookStore.API.Controllers
             _mediator = mediator;
         }
 
-        [SwaggerOperation(Summary = "Get all Books.")]
+        [SwaggerOperation(Summary = "Get all Books.", Description = "This will get all books.")]
         [HttpGet]
         public async Task<ActionResult<List<GetAllBooksResponse>>> GetAll(CancellationToken cancellationToken)
         {
@@ -24,7 +24,7 @@ namespace BookStore.API.Controllers
             return Ok(response);
         }
 
-        [SwaggerOperation(Summary = "Add new Book")]
+        [SwaggerOperation(Summary = "Add new Book.", Description = "Adds new book.")]
         [HttpPost]
         public async Task<ActionResult<List<CreateBookResponse>>> Create(CreateBookRequest request, CancellationToken cancellationToken)
         {
